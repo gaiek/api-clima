@@ -13,3 +13,6 @@ dev:
 
 down:
 	docker compose down
+
+test:
+	uv run python -m pytest --cov
